@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="116003" started-at="2017-06-12T12:33:45Z" finished-at="2017-06-12T12:35:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="116003" started-at="2017-06-12T12:33:45Z" finished-at="2017-06-12T12:35:41Z">
+      <class name="testSuite.UpdateApplicationForOrangeHrmChrome">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testSuite.UpdateApplicationForOrangeHrmChrome@1ed1993a]" name="setup" is-config="true" duration-ms="34141" started-at="2017-06-12T18:03:45Z" finished-at="2017-06-12T18:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="OrangeHrmUpdatePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuite.UpdateApplicationForOrangeHrmChrome@1ed1993a]" name="OrangeHrmUpdatePage" duration-ms="57434" started-at="2017-06-12T18:04:43Z" data-provider="InternetExplorer" finished-at="2017-06-12T18:05:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smrithi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ck]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30-06-2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrmUpdatePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testSuite.UpdateApplicationForOrangeHrmChrome@1ed1993a]" name="closeBrowser" is-config="true" duration-ms="1198" started-at="2017-06-12T18:05:40Z" finished-at="2017-06-12T18:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testSuite.UpdateApplicationForOrangeHrmChrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
